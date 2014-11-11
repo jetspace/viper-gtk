@@ -1,13 +1,13 @@
 
 /* Default color scheme */
-@define-color bg_color #eee;
-@define-color fg_color #6A6B6C;
-@define-color base_color #fff;
-@define-color text_color #6A6B6C;
-@define-color selected_bg_color #C6E8F4;
-@define-color selected_fg_color #234960;
-@define-color tooltip_bg_color #F6F7B5;
-@define-color tooltip_fg_color #444;
+@define-color bg_color #282828;
+@define-color fg_color #fcfcfc;
+@define-color base_color #242424;
+@define-color text_color #fcfcfc;
+@define-color selected_bg_color #DC8214;
+@define-color selected_fg_color #5e2100;
+@define-color tooltip_bg_color #DC8214;
+@define-color tooltip_fg_color #cfcfcf;
 
 /* colormap actually used by the theme, to be overridden in other css files */
 @define-color theme_bg_color @bg_color;
@@ -25,30 +25,30 @@
 
 /* misc colors used by gtk+ */
 @define-color info_fg_color white;
-@define-color info_bg_color #BACF66;
+@define-color info_bg_color #DC8214;
 @define-color warning_fg_color white;
-@define-color warning_bg_color #E6A682;
+@define-color warning_bg_color #DC5A14;
 @define-color question_fg_color white;
-@define-color question_bg_color #74C47B;
+@define-color question_bg_color #DC8214;
 @define-color error_fg_color white;
-@define-color error_bg_color #E682C8;
+@define-color error_bg_color #DC5A14;
 @define-color link_color mix (@theme_selected_bg_color, black, 0.15);
-@define-color success_color #53a93f;
-@define-color warning_color #f57900;
+@define-color success_color #DC8214;
+@define-color warning_color #DC8214;
 @define-color error_color #cc0000;
 
 /* widget colors */
-@define-color border_color #eeeeee;
-@define-color button_normal_color #AAAAAA;
-@define-color button_info_color #72B279;
+@define-color border_color #DC8214;
+@define-color button_normal_color #DC8214;
+@define-color button_info_color #DC8214;
 @define-color button_default_active_color shade(@theme_selected_bg_color, 0.857);
-@define-color entry_border_color #E6E9EE;
+@define-color entry_border_color #DC8214;
 @define-color frame_border_bottom_color #E3E4E7;
 @define-color sel_color #B98CD7;
 @define-color switch_bg_color #C9CBCF;
 @define-color panel_bg_color #434A54;
 @define-color panel_fg_color #a0a0a0;
-@define-color borders #FAFAFA;
+@define-color borders #DC8214;
 @define-color scrollbar_trough shade(@theme_base_color, 0.9);
 @define-color scrollbar_slider_prelight mix(@scrollbar_trough, @theme_fg_color, 0.5);
 

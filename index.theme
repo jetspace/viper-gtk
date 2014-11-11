@@ -1,11 +1,11 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Polar Day
-Comment=still cold
+Name=ViperGTK
+Comment=JetSpace GTK theme
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Polar Day
-MetacityTheme=Polar Day
+GtkTheme=ViperGTK
+MetacityTheme=Viper
 ButtonLayout=:minimize,maximize,close
 IconTheme=gnome

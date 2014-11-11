@@ -186,7 +186,7 @@ GtkAssistant .sidebar {
     border-style: solid;
     border-color: transparent;
     border-radius: 3px;
-    background-color: #F5F5F5;
+    background-color: #4f4f4f;
     background-image: none;
     color: @theme_text_color;
 }
@@ -326,7 +326,7 @@ column-header .button:hover,
 column-header .button:active:hover,
 column-header .button:hover:focus,
 column-header .button:active:hover:focus {
- 
+
     box-shadow: none;
     background-color: inherit;
     background-image: none;
@@ -584,7 +584,7 @@ GtkScrolledWindow.frame {
     border-style: none;
 }
 
-/* avoid double borders when a viewport is 
+/* avoid double borders when a viewport is
  * packed into a GtkScrolledWindow */
 GtkScrolledWindow GtkViewport.frame {
     border-style: none;
@@ -769,7 +769,7 @@ GtkInfoBar {
 }
 
 .floating-bar.left {
- 
+
 }
 
 
@@ -1019,7 +1019,7 @@ GtkModelMenuItem GtkBox GtkImage {
 }
 
 .notebook tab:active {
-    background-color: @theme_base_color;
+    background-color: @selected_bg_color;
     background-image: none;
 }
 
@@ -1416,7 +1416,7 @@ GtkComboBox .separator {
 .sidebar GtkScrolledWindow {
     -GtkScrolledWindow-scrollbar-spacing: 0;
     -GtkScrolledWindow-scrollbars-within-bevel: 0;
-    background-color: #F5F5F5;
+    background-color: #333333;
     color: @theme_text_color;
 }
 
@@ -1435,15 +1435,15 @@ GtkComboBox .separator {
 
 NautilusWindow .sidebar row:selected:backdrop {
     border-width: 0;
-    background-color: #DCE1E3;
+    background-color: #434343;
     background-image: none;
-    color: #555;
+    color: #c2c2c2;
 }
 
 .sidebar row:prelight,
 .sidebar .view row:prelight {
-    color: #444;
-    background-color: #F2F2F2;
+    color: #c2c2c2;
+    background-color: #434343;
 }
 
 .sidebar row:selected:prelight,
@@ -2087,7 +2087,7 @@ GtkColorButton.button {
 }
 
 .inline-toolbar.toolbar .button:active {
- 
+
 }
 
 .inline-toolbar.toolbar .button:active:hover {
@@ -2692,7 +2692,7 @@ GtkMenuButton.button:active,
 }
 
 .button.menuitem.menubar:active {
- 
+
 }
 
 .button.menuitem.menubar:active,
@@ -2958,7 +2958,7 @@ GtkProgressBar.osd.trough {
 .osd GtkProgressBar.progressbar,
 GtkProgressBar.osd.progressbar {
     border-style: none;
-    border-radius: 0;    
+    border-radius: 0;
     background-color: @theme_selected_bg_color;
     background-image: none;
 }
